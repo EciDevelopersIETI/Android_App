@@ -1,16 +1,16 @@
-package co.com.eci.ieti.kingboo.ui.gallery;
+package co.com.eci.ieti.kingboo.ui.editarProveedor;
 
 import android.arch.lifecycle.LiveData;
 import android.arch.lifecycle.MutableLiveData;
 import android.arch.lifecycle.ViewModel;
 
-public class GalleryViewModel extends ViewModel {
+public class editarProveedorModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public GalleryViewModel() {
+    public editarProveedorModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is gallery fragment");
+        mText.setValue("EDITAR PROVEEDOR");
     }
 
     public LiveData<String> getText() {

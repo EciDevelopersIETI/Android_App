@@ -1,4 +1,4 @@
-package co.com.eci.ieti.kingboo.ui.home;
+package co.com.eci.ieti.kingboo.ui.editarProveedor;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -13,17 +13,17 @@ import android.arch.lifecycle.ViewModelProvider;
 
 import co.com.eci.ieti.kingboo.R;
 
-public class HomeFragment extends Fragment {
+public class editarProveedorFragment extends Fragment {
 
-    private HomeViewModel homeViewModel;
+    private editarProveedorModel galleryViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        homeViewModel =
-                new ViewModelProvider(this, new ViewModelProvider.NewInstanceFactory()).get(HomeViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_home, container, false);
-        final TextView textView = root.findViewById(R.id.text_home);
-        homeViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
+        galleryViewModel =
+                new ViewModelProvider(this, new ViewModelProvider.NewInstanceFactory()).get(editarProveedorModel.class);
+        View root = inflater.inflate(R.layout.fragment_gallery, container, false);
+        final TextView textView = root.findViewById(R.id.text_gallery);
+        galleryViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
                 textView.setText(s);

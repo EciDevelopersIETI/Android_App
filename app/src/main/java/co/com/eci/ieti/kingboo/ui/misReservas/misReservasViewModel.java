@@ -1,16 +1,16 @@
-package co.com.eci.ieti.kingboo.ui.home;
+package co.com.eci.ieti.kingboo.ui.misReservas;
 
 import android.arch.lifecycle.LiveData;
 import android.arch.lifecycle.MutableLiveData;
 import android.arch.lifecycle.ViewModel;
 
-public class HomeViewModel extends ViewModel {
+public class misReservasViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public HomeViewModel() {
+    public misReservasViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is home fragment");
+        mText.setValue("MIS RESERVAS");
     }
 
     public LiveData<String> getText() {

@@ -1,4 +1,4 @@
-package co.com.eci.ieti.kingboo.ui.gallery;
+package co.com.eci.ieti.kingboo.ui.misReservas;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -13,17 +13,17 @@ import android.arch.lifecycle.ViewModelProvider;
 
 import co.com.eci.ieti.kingboo.R;
 
-public class GalleryFragment extends Fragment {
+public class misReservasFragment extends Fragment {
 
-    private GalleryViewModel galleryViewModel;
+    private misReservasViewModel homeViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        galleryViewModel =
-                new ViewModelProvider(this, new ViewModelProvider.NewInstanceFactory()).get(GalleryViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_gallery, container, false);
-        final TextView textView = root.findViewById(R.id.text_gallery);
-        galleryViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
+        homeViewModel =
+                new ViewModelProvider(this, new ViewModelProvider.NewInstanceFactory()).get(misReservasViewModel.class);
+        View root = inflater.inflate(R.layout.fragment_home, container, false);
+        final TextView textView = root.findViewById(R.id.text_home);
+        homeViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
                 textView.setText(s);
