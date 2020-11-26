@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".listado">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="71dp">
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="165dp"
+            android:background="#3F51B5" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="477dp"
+            android:layout_marginTop="175dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0">
+
+                    <ImageView
+                        android:id="@+id/imageView8"
+                        android:layout_width="229dp"
+                        android:layout_height="89dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_weight="1"
+                        android:contentDescription="TODO"
+                        android:src="@drawable/logo" />
+
+                    <Button
+                        android:id="@+id/button4"
+                        style="@style/Widget.AppCompat.Button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="200dp"
+                        android:layout_marginTop="50dp"
+                        android:layout_weight="0"
+                        android:text="Aleja Fashion" />
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    app:cardBackgroundColor="#FFFFFF">
+
+                    <ImageView
+                        android:id="@+id/imageView12"
+                        android:layout_width="229dp"
+                        android:layout_height="89dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:contentDescription="TODO"
+                        android:src="@drawable/logo" />
+
+                    <Button
+                        android:id="@+id/button9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="200dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_weight="0"
+                        android:text="Suso's Shop" />
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    app:cardBackgroundColor="#FFFFFF">
+
+                    <ImageView
+                        android:id="@+id/imageView11"
+                        android:layout_width="229dp"
+                        android:layout_height="89dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:contentDescription="TODO"
+                        android:src="@drawable/logo" />
+
+                    <Button
+                        android:id="@+id/button10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="200dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_weight="0"
+                        android:text="Charlies Style" />
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    app:cardBackgroundColor="#FFFFFF">
+
+                    <ImageView
+                        android:id="@+id/imageView10"
+                        android:layout_width="229dp"
+                        android:layout_height="89dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:contentDescription="TODO"
+                        android:src="@drawable/logo" />
+
+                    <Button
+                        android:id="@+id/button11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="200dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_weight="0"
+                        android:text="Uh La La" />
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    app:cardBackgroundColor="#FFFFFF">
+
+                    <ImageView
+                        android:id="@+id/imageView9"
+                        android:layout_width="229dp"
+                        android:layout_height="89dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:contentDescription="TODO"
+                        android:src="@drawable/logo" />
+
+                    <Button
+                        android:id="@+id/button12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="200dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_weight="0"
+                        android:text="Donde Juanito" />
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="50dp"
+            android:layout_weight="1"
+            android:text="Tiendas"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="202dp"
+            android:layout_height="101dp"
+            android:layout_weight="1"
+            android:src="@drawable/logo"
+            android:contentDescription="TODO" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </android.support.design.widget.TextInputLayout>
+
+        <EditText
+            android:id="@+id/editTextNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="135dp"
+            android:ems="10"
+            android:hint="Campo de busqueda"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="275dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="275dp"
+            android:layout_marginBottom="275dp"
+            android:background="#3F51B5"
+            android:text="Buscar"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="229dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="680dp"
+            android:background="#3F51B5"
+            android:text="Regresar"
+            android:textColor="#FFFFFF"
+            android:textColorLink="#FFFFFF" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

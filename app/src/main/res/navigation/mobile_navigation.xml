@@ -22,4 +22,23 @@
         android:name="co.com.eci.ieti.kingboo.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_bienvenidaCliente"
+        android:name="co.com.eci.ieti.kingboo.nav_bienvenidaCliente"
+        android:label="fragment_nav_bienvenida_cliente"
+        tools:layout="@layout/fragment_nav_bienvenida_cliente" />
+
+    <fragment
+        android:id="@+id/nav_listado"
+        android:name="co.com.eci.ieti.kingboo.listado"
+        android:label="fragment_listado"
+        tools:layout="@layout/fragment_listado" />
+
+    <fragment
+        android:id="@+id/nav_descripcionSitio"
+        android:name="co.com.eci.ieti.kingboo.nav_descripcionSitio"
+        android:label="fragment_nav_descripcion_sitio"
+        tools:layout="@layout/fragment_nav_descripcion_sitio" />
+
 </navigation>
