@@ -1,15 +1,18 @@
 package co.com.eci.ieti.kingboo;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 public class LoginActivity extends AppCompatActivity {
 
     Button acceder;
+    Button registrar;
+    Button cliente;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +24,10 @@ public class LoginActivity extends AppCompatActivity {
 
         acceder = (Button) findViewById(R.id.accederButton);
 
+        registrar = (Button) findViewById(R.id.registerButton);
+
+        cliente = (Button) findViewById(R.id.clientebtn);
+
         acceder.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -28,5 +35,23 @@ public class LoginActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        registrar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), RegistrarActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        cliente.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), nav_bienvenidaCliente.class);
+                startActivity(intent);
+            }
+        });
+
+
     }
 }

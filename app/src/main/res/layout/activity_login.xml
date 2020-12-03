@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -63,8 +63,8 @@
 
     <Button
         android:id="@+id/accederButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="108dp"
+        android:layout_height="42dp"
         android:layout_marginTop="292dp"
         android:background="#3F51B5"
         android:text="Acceder"
@@ -77,8 +77,8 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="259dp"
-        android:layout_height="251dp"
+        android:layout_width="209dp"
+        android:layout_height="190dp"
         android:layout_marginTop="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
@@ -87,4 +87,32 @@
         app:srcCompat="@drawable/logo"
         tools:ignore="MissingConstraints" />
 
-</android.support.constraint.ConstraintLayout>
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="108dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="352dp"
+        android:background="#3F51B5"
+        android:text="registrarse"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/clientebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:text="cliente"
+        android:textAllCaps="false"
+        android:textColor="#3F51B5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="642dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,16 +1,18 @@
 package co.com.eci.ieti.kingboo;
 
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import androidx.fragment.app.Fragment;
 
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link nav_bienvenidaCliente#newInstance} factory method to
  * create an instance of this fragment.
  */
+
 public class nav_bienvenidaCliente extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match

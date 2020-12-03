@@ -1,19 +1,17 @@
 package co.com.eci.ieti.kingboo;
 
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
 import android.view.Menu;
-import android.support.design.widget.NavigationView;
 
+import com.google.android.material.navigation.NavigationView;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
-import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.AppCompatActivity;
-import android.view.MenuItem;
 
 public class ProveedorActivity extends AppCompatActivity {
 
