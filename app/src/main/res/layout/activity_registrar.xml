@@ -65,7 +65,7 @@
                 android:textSize="14sp" />
 
             <EditText
-                android:id="@+id/emialregistro"
+                android:id="@+id/emailregistro"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -123,6 +123,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#3F51B5"
+                android:onClick="postData"
                 android:text="registrarte"
                 android:textColor="#FFFFFF" />
 
