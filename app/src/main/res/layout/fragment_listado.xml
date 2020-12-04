@@ -219,7 +219,7 @@
             android:layout_marginTop="680dp"
             android:background="#3F51B5"
             android:text="Regresar"
-            android:textColor="#FFFFFF"
+            android:textColor="#37BF2626"
             android:textColorLink="#FFFFFF" />
 
     </RelativeLayout>

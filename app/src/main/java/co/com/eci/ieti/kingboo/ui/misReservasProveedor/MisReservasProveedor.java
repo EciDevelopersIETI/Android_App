@@ -4,17 +4,18 @@ public class MisReservasProveedor {
     private String idReserva;
     private String fechaReserva;
     private String horaReserva;
-    private String ServiciosReserva;
+    private String serviciosReserva;
     private String clienteReserva;
     private String comentarioReserva;
     private String encargadoReserva;
 
+    public MisReservasProveedor(){}
 
     public MisReservasProveedor(String idReserva, String fechaReserva, String horaReserva, String serviciosReserva, String clienteReserva, String comentarioReserva, String encargadoReserva) {
         this.idReserva = idReserva;
         this.fechaReserva = fechaReserva;
         this.horaReserva = horaReserva;
-        ServiciosReserva = serviciosReserva;
+        this.serviciosReserva = serviciosReserva;
         this.clienteReserva = clienteReserva;
         this.comentarioReserva = comentarioReserva;
         this.encargadoReserva = encargadoReserva;
@@ -45,11 +46,11 @@ public class MisReservasProveedor {
     }
 
     public String getServiciosReserva() {
-        return ServiciosReserva;
+        return serviciosReserva;
     }
 
     public void setServiciosReserva(String serviciosReserva) {
-        ServiciosReserva = serviciosReserva;
+        this.serviciosReserva = serviciosReserva;
     }
 
     public String getClienteReserva() {
