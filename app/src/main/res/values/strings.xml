@@ -2,8 +2,10 @@
     <string name="app_name">kingboo</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Proveedor</string>
-    <string name="nav_header_subtitle">emailProvedor@android.com</string>
+    <string name="nav_header_title">Proveedor KINGBOO</string>
+    <string name="nav_header_user">Cliente KINGBOO</string>
+    <string name="nav_header_subtitle">luis@mail.com</string>
+    <string name="nav_header_user2">fernando@mail.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
@@ -11,6 +13,7 @@
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
     <string name="menu_misreservas">Mis reservas</string>
+    <string name="menu_tiendas">Tiendas</string>
     <string name="menu_editarproveedor">Editar proveedor</string>
     <string name="menu_logout">Logout</string>
 </resources>

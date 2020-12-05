@@ -43,7 +43,7 @@
                         android:layout_marginTop="30dp"
                         android:layout_weight="1"
                         android:contentDescription="TODO"
-                        android:src="@drawable/logo" />
+                        android:src="@drawable/salon1" />
 
                     <Button
                         android:id="@+id/button4"
@@ -53,7 +53,7 @@
                         android:layout_marginLeft="200dp"
                         android:layout_marginTop="50dp"
                         android:layout_weight="0"
-                        android:text="Aleja Fashion" />
+                        android:text="Charlis Styles" />
 
                 </androidx.cardview.widget.CardView>
 
@@ -70,7 +70,7 @@
                         android:layout_marginTop="10dp"
                         android:layout_weight="1"
                         android:contentDescription="TODO"
-                        android:src="@drawable/logo" />
+                        android:src="@drawable/salon2" />
 
                     <Button
                         android:id="@+id/button9"
@@ -79,7 +79,7 @@
                         android:layout_marginLeft="200dp"
                         android:layout_marginTop="20dp"
                         android:layout_weight="0"
-                        android:text="Suso's Shop" />
+                        android:text="Aleja's Fashion" />
 
                 </androidx.cardview.widget.CardView>
 
@@ -96,7 +96,7 @@
                         android:layout_marginTop="10dp"
                         android:layout_weight="1"
                         android:contentDescription="TODO"
-                        android:src="@drawable/logo" />
+                        android:src="@drawable/sanandreas" />
 
                     <Button
                         android:id="@+id/button10"
@@ -105,7 +105,7 @@
                         android:layout_marginLeft="200dp"
                         android:layout_marginTop="20dp"
                         android:layout_weight="0"
-                        android:text="Charlies Style" />
+                        android:text="CJ's Barber Shop" />
 
                 </androidx.cardview.widget.CardView>
 
@@ -122,7 +122,7 @@
                         android:layout_marginTop="10dp"
                         android:layout_weight="1"
                         android:contentDescription="TODO"
-                        android:src="@drawable/logo" />
+                        android:src="@drawable/salon3" />
 
                     <Button
                         android:id="@+id/button11"
@@ -131,33 +131,7 @@
                         android:layout_marginLeft="200dp"
                         android:layout_marginTop="20dp"
                         android:layout_weight="0"
-                        android:text="Uh La La" />
-
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="0"
-                    app:cardBackgroundColor="#FFFFFF">
-
-                    <ImageView
-                        android:id="@+id/imageView9"
-                        android:layout_width="229dp"
-                        android:layout_height="89dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_weight="1"
-                        android:contentDescription="TODO"
-                        android:src="@drawable/logo" />
-
-                    <Button
-                        android:id="@+id/button12"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="200dp"
-                        android:layout_marginTop="20dp"
-                        android:layout_weight="0"
-                        android:text="Donde Juanito" />
+                        android:text="Luis Cute" />
 
                 </androidx.cardview.widget.CardView>
 
@@ -219,7 +193,7 @@
             android:layout_marginTop="680dp"
             android:background="#3F51B5"
             android:text="Regresar"
-            android:textColor="#37BF2626"
+            android:textColor="#FFFFFF"
             android:textColorLink="#FFFFFF" />
 
     </RelativeLayout>
